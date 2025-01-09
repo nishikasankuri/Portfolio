@@ -9,7 +9,7 @@ export default function About () {
   });
   return (
   <div className="about">
-    <animated.h1 style={props}>Who Am I?</animated.h1>
+    <animated.h1 style={props}>Get to Know Me?</animated.h1>
     <div className="about-container">
       <div className="gif_image">
         <img src={aboutGIF} alt="Description of GIF" className="gif_image"/>
