@@ -12,7 +12,9 @@ export const frontEndList = [
     { name: "MySQL" , logo: require('../../assets/mysql.png')},
     { name: "REST API" , logo: require('../../assets/restAPI.png')},
     { name: "GitHub", logo: require('../../assets/github.png')},
-    { name: "Problem Solving", logo: require('../../assets/problemsolving.png')}
+    { name: "Problem Solving", logo: require('../../assets/problemsolving.png')},
+    { name: "GCP", logo: require('../../assets/gcp.png')},
+    { name: "AI/ML", logo: require('../../assets/aiml.jpeg')}
   ]
   
   export default frontEndList;
