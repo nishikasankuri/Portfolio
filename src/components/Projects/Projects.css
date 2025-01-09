@@ -1,0 +1,87 @@
+.projects {
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #a1acce;
+    max-width: 300px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .project.light {
+    background: linear-gradient(to left, #6e6d9b, #b3c7e58e);
+  }
+
+  .project.dark {
+    background: linear-gradient(to right, #717280,#101022);
+  }
+
+  .project h3 {
+    margin-top: 20px;
+  }
+  
+  .tech-stack {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .tech-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .tech-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .project a {
+    background-color: #6494dd;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+.link-button-light {
+  background: linear-gradient(#9B86BD, #6e6d9b, #5A639C);
+}
+.link-button.dark {
+  background-color: #0F3460
+}

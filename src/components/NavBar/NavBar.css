@@ -1,0 +1,140 @@
+html, body {
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    padding-top: 60px;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(#9B86BD, #7776B3, #5A639C);
+    padding: 1rem 0;
+    z-index: 1000;
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+    border-color: transparent;
+    box-shadow: 0 0 15px rgb(101, 129, 129), 0 0 30px rgb(30, 88, 128), 0 0 45px rgb(58, 48, 153);
+  }
+  
+  .neon-button {
+    position: relative;
+    width: 100px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #fff;
+    background-color: linear-gradient(#9B86BD, #7776B3, #5A639C);
+    border: 0px solid rgb(91, 66, 133);
+    cursor: pointer;
+    overflow: hidden;
+    transition: border-color 0.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .neon-button:hover {
+    border-color: transparent;
+    box-shadow: 0 0 15px #535C91, 0 0 30px #1B1A55, 0 0 45px #070F2B;
+  }
+  
+  nav .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+  }
+  
+  .theme-switch {
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  
+  .theme-switch-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .theme-text {
+    margin: 0 10px;
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    z-index: 1;
+  }
+  
+  nav ul :hover {
+    color: #fff;
+  }
+  
+  nav ul li {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    nav .hamburger {
+      display: block;
+      margin-right: auto;
+    }
+    nav ul {
+      flex-direction: column;
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      top: 100%;
+      left: -100%;
+      background: linear-gradient(#9B86BD, #7776B3, #5A639C);
+      width: 50%;
+      height: calc(100vh - 60px);
+      transition: left 0.3s ease;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  
+    nav ul.open {
+      left: 0;
+    }
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  #about, #home, #experience, #skills, #certifications {
+    height: 100vh;
+  }

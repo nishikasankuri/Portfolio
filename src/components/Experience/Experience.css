@@ -1,0 +1,104 @@
+/* Experience.css */
+
+.experience {
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    flex: 1;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .more-button {
+    background-color: #6494dd;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  .flashcard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
+    justify-content: center; /* Center the flashcards horizontally */
+    gap: 20px; 
+  }
+  #flashcard light {
+    background-color: aquamarine;
+  }
+  .flashcard {
+    background-color: #8c8baf;
+    border: 1px solid #ccc0e9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px; /* Adjust the width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Example of a transition property */
+  }
+  
+  .flashcard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .flashcard h3 {
+    margin-top: 0;
+  }
+  
+  .flashcard-logo {
+    display: block;
+    width: 150px;
+    height: 55px;
+    margin: 30px auto 0;
+    border-radius: 10px;
+  }
+  
+  /* Ensure your existing animation keyframes are included */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Example of maintaining existing animations */
+  .flashcard.left.light {
+    animation: slideInLeft 0.5s ease-in-out;
+    background: linear-gradient(#9B86BD, #6e6d9b, #5A639C);
+  }
+  .flashcard.left.dark {
+    animation: slideInLeft 0.5s ease-in-out;
+    background: linear-gradient(to right, #717280,#101022);
+  }
+  .flashcard.right.light {
+    animation: slideInRight 0.5s ease-in-out;
+    background: linear-gradient(#9B86BD, #6e6d9b, #5A639C);
+  }
+  .flashcard.right.dark {
+    animation: slideInRight 0.5s ease-in-out;
+    background: linear-gradient(to right, #717280,#101022);
+  }
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
