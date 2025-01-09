@@ -17,13 +17,11 @@ export default function About () {
     
       <div className="text">
         <animated.p style={props}>
-        I'm currently pursuing Master's in Computer Science at Wright State University.
-        Before this, I got my Bachelor's degree in Computer Science from Jawaharlal Nehru Technological University (July 2018 - July 2022).
+        Hello! I’m Nishika, a tech enthusiast and lifelong learner, currently pursuing my Master’s in Computer Science at Wright State University. My academic journey began with a Bachelor’s degree in Computer Science from Jawaharlal Nehru Technological University, where my passion for technology and problem-solving took root.
         <br /> <br/>
-        I love competitive programming and problem-solving, which have helped me think analytically and tackle tough challenges.
+        Over the years, I’ve honed my skills in software development, competitive programming, and innovative thinking. I enjoy breaking down complex challenges and crafting creative solutions that make a difference. Whether it's collaborating with a team or leading a project, I bring energy, adaptability, and a can-do attitude to the table.
         <br/> <br/> 
-        I'm also a strong team leader who believes in working together to get projects done successfully. I welcome new challenges and always prove my ability to overcome them!
-        Get to know about my experience by scrolling to experience section! :)
+        When I’m not coding, you’ll find me exploring the intersection of creativity and technology, dabbling in design, or brainstorming new ideas to bring to life. Let’s connect, collaborate, and build something extraordinary together!
         </animated.p>
         
       </div>

@@ -58,6 +58,7 @@ const Home = () => {
           </h2>
           <p>
           I’m a Computer Science graduate student at Wright State University with expertise in AI/ML and full-stack development. I’m passionate about solving complex problems, building impactful solutions, and exploring innovative technologies. 
+          <br /> <br/>
           Explore my work and let’s connect!
           </p>
           <div className="button-container">
