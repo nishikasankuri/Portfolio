@@ -1,6 +1,6 @@
 .projects {
     padding: 20px;
-    text-align: center;
+    text-align: match-parent;
     min-height: 100vh;
     line-height: 1.5;
     margin-bottom: 20px;
@@ -11,7 +11,7 @@
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 60px;
     justify-items: center;
   }
   

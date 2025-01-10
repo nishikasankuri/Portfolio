@@ -3,6 +3,12 @@ import EachProject from './EachProject';
 import './Projects.css';
 const projectsData = [
   {
+    title: 'My Portfolio Using React',
+    description: 'Developed a web application using ReactJS that retrieves the current weather data for the users current location or any location they search for, as well as the five-day weather forecast, including the locations minimum and maximum temperatures, humidity, and sky conditions (cloudy, clear, rainy, fog, and mist). ',
+    techStack: ['HTML5', 'CSS3','JavaScript','ReactJS'],
+    githubLink: 'https://github.com/nishikasankuri/Portfolio.git'
+  },
+  {
     title: 'My Weather App Using React',
     description: 'Developed a web application using ReactJS that retrieves the current weather data for the users current location or any location they search for, as well as the five-day weather forecast, including the locations minimum and maximum temperatures, humidity, and sky conditions (cloudy, clear, rainy, fog, and mist). ',
     techStack: ['HTML5', 'CSS3','JavaScript','ReactJS'],
@@ -12,7 +18,7 @@ const projectsData = [
     title: 'Smart Plant Recognition',
     description: 'Developed an app which detects the name of the plant, scientific name, along with the description of the plant from a photograph that student uploads. Used Angular framework (TypeScript/JS) and Django framework (Python) with HTML & CSS for Front End.',
     techStack: ['Python', 'Django', 'HTML5', 'CSS3', 'JavaScript', 'Angular', 'NodeJS'],
-    githubLink: 'https://github.com/nishikasankuri/Phoenix.git, https://github.com/anushakhadka/SmartPlantFrontend.git'
+    githubLink: 'https://github.com/nishikasankuri/Phoenix.git'
   },
   {
     title: 'Suspicious Activity Detection',

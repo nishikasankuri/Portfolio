@@ -34,7 +34,7 @@ const EachProject = ({ title, description, techStack, githubLink }) => {
       <h3>{title}</h3>
       <p>{description}</p>
       <a href={githubLink} className={`link-button ${theme}`} target="_blank" rel="noopener noreferrer">
-        View on GitHub
+        GitHub Link
       </a>
     </div>
   );
