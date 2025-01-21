@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nishikasankuri/Portfolio.git%20/nishika-portfolio-website/static/css/main.4c4179b4.css",
-    "main.js": "/nishikasankuri/Portfolio.git%20/nishika-portfolio-website/static/js/main.63cb91c9.js",
-    "static/js/453.e5363b32.chunk.js": "/nishikasankuri/Portfolio.git%20/nishika-portfolio-website/static/js/453.e5363b32.chunk.js",
-    "static/media/my_image.png.jpg": "/nishikasankuri/Portfolio.git%20/nishika-portfolio-website/static/media/my_image.png.ff4d6bfcafe8b19142c8.jpg",
-    "static/media/react.jpeg": "/nishikasankuri/Portfolio.git%20/nishika-portfolio-website/static/media/react.151ded3e34455147585e.jpeg",
-    "index.html": "/nishikasankuri/Portfolio.git%20/nishika-portfolio-website/index.html",
-    "main.4c4179b4.css.map": "/nishikasankuri/Portfolio.git%20/nishika-portfolio-website/static/css/main.4c4179b4.css.map",
-    "main.63cb91c9.js.map": "/nishikasankuri/Portfolio.git%20/nishika-portfolio-website/static/js/main.63cb91c9.js.map",
-    "453.e5363b32.chunk.js.map": "/nishikasankuri/Portfolio.git%20/nishika-portfolio-website/static/js/453.e5363b32.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.4c4179b4.css",
+    "main.js": "/Portfolio/static/js/main.5c10c345.js",
+    "static/js/453.e5363b32.chunk.js": "/Portfolio/static/js/453.e5363b32.chunk.js",
+    "static/media/my_image.png.jpg": "/Portfolio/static/media/my_image.png.ff4d6bfcafe8b19142c8.jpg",
+    "static/media/react.jpeg": "/Portfolio/static/media/react.151ded3e34455147585e.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.4c4179b4.css.map": "/Portfolio/static/css/main.4c4179b4.css.map",
+    "main.5c10c345.js.map": "/Portfolio/static/js/main.5c10c345.js.map",
+    "453.e5363b32.chunk.js.map": "/Portfolio/static/js/453.e5363b32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c4179b4.css",
-    "static/js/main.63cb91c9.js"
+    "static/js/main.5c10c345.js"
   ]
 }
