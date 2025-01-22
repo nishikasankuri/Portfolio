@@ -33,11 +33,11 @@
   }
 
   .project.light {
-    background: linear-gradient(to left, #6e6d9b, #b3c7e58e);
+    background: linear-gradient(to left, #9e7dad, #c1aadf7b);
   }
 
   .project.dark {
-    background: linear-gradient(to right, #717280,#101022);
+    background: linear-gradient(to right, #696b81,#101022);
   }
 
   .project h3 {

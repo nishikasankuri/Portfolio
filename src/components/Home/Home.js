@@ -18,7 +18,7 @@ const loadFontAwesome = () => {
 const Home = () => {
 
   const resumeLink = () => {
-    window.open('https://drive.google.com/file/d/1vn7obYupMEJHJMb5jg-9BeO5VZN_O0XL/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1zafkK72YfkVb25wkHlvTVFk1Ka5UQ8aE/view?usp=sharing', '_blank');
   };
 
   React.useEffect(() => {
@@ -45,8 +45,8 @@ const Home = () => {
               words={[
                 "Software Engineer Intern : AI/ML",
                 "Assistant System Engineer ",
-                "Graduate Computer Science Student",
-                "Tutor"
+                "Academic Tutor(Self Employed)",
+                "Graduate Computer Science Student"
               ]}
               loop={1}
               cursor

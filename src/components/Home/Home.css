@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap; 
     justify-content: space-between;
-    align-items: center;
+    align-items: normal;
     padding: 20px;
     min-height: 100vh; 
     font-size: large;
@@ -15,7 +15,7 @@
   h1,
   h2 {
     font-family: Georgia, "Times New Roman", Times, serif;
-    text-align: center;
+    text-align: match-present;
     line-height: 1.5;
   }
   

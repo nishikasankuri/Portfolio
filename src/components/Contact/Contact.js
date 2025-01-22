@@ -3,7 +3,7 @@ import './Contact.css';
 
 const Contact = () => {
   const resumeLink = () => {
-    window.open('https://drive.google.com/file/d/1vn7obYupMEJHJMb5jg-9BeO5VZN_O0XL/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1zafkK72YfkVb25wkHlvTVFk1Ka5UQ8aE/view?usp=sharing', '_blank');
   };
   return (
     <div className="contact-container">

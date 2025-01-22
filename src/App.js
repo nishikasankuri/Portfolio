@@ -13,7 +13,7 @@ import { createContext, useState } from 'react';
 export const ThemeContext = createContext(null);
 
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const toggle = () => {
     setTheme((currTheme) => (currTheme === "light" ? "dark" : "light"));
@@ -23,7 +23,7 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggle }}>
       <div className="animation-container">
         <div className={`stars ${theme}`}></div>
-        <div className="shooting-star"></div>
+        <div className="matrix"></div>
       </div>
       <div className={`app ${theme}`}>
         <NavBar />
