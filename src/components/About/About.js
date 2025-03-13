@@ -1,6 +1,6 @@
 import "./About.css";
 import {animated, useSpring} from "react-spring";
-import aboutGIF from './about.gif';
+import yourPhoto from '../../assets/Nishika.JPG';
 export default function About () {
   const props = useSpring({
     from: { transform: "translateY(50px)", opacity: 0 },
@@ -11,8 +11,8 @@ export default function About () {
   <div className="about">
     <animated.h1 style={props}>Get to Know Me?</animated.h1>
     <div className="about-container">
-      <div className="gif_image">
-        <img src={aboutGIF} alt="Description of GIF" className="gif_image"/>
+      <div className="profile_image">
+        <img src={yourPhoto} alt="Nishika Sankuri" className="profile_imagee"/>
       </div>
     
       <div className="text">

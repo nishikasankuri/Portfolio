@@ -4,9 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { useSpring, animated } from "react-spring";
 import {ThemeContext} from '../../App';
 import "./Home.css";
-import CIcon from '@coreui/icons-react';
-import {cibLeetcode} from '@coreui/icons';
-import myImage from '../../assets/my_image.png.jpg';
+import myImage from '../../assets/my_image.jpg';
 
 const loadFontAwesome = () => {
   const link = document.createElement("link");
@@ -75,6 +73,9 @@ const Home = () => {
             <a href="https://github.com/nishikasankuri" className="icon-link" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
+            <a href="https://my-ai-journey.hashnode.dev/" className="icon-link" target="_blank" rel="noopener noreferrer">
+            <i className="fas fa-blog"></i> {/* Font Awesome blog icon */}
+          </a>
           </div>
         </div>
         <div className="round-image-container">

@@ -4,7 +4,7 @@ import './Projects.css';
 const projectsData = [
   {
     title: 'My Portfolio Using React',
-    description: 'Developed a web application using ReactJS that retrieves the current weather data for the users current location or any location they search for, as well as the five-day weather forecast, including the locations minimum and maximum temperatures, humidity, and sky conditions (cloudy, clear, rainy, fog, and mist). ',
+    description: 'Designed and developed a personal portfolio website to showcase projects, skills, and achievements. Built using ReactJS, Tailwind CSS, and hosted on GitHub Pages with a CI/CD pipeline for automated deployments. Integrated dark mode, responsive design, and interactive UI elements for an enhanced user experience.). ',
     techStack: ['HTML5', 'CSS3','JavaScript','ReactJS'],
     githubLink: 'https://github.com/nishikasankuri/Portfolio.git'
   },

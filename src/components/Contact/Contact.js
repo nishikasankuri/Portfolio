@@ -23,6 +23,9 @@ const Contact = () => {
           <a href="https://github.com/nishikasankuri" className="icon-link" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>
+          <a href="https://my-ai-journey.hashnode.dev/" className="icon-link" target="_blank" rel="noopener noreferrer">
+            <i className="fas fa-blog"></i> {/* Font Awesome blog icon */}
+          </a>
         </div>
       </div>
       <div className="citation">

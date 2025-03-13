@@ -23,7 +23,7 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggle }}>
       <div className="animation-container">
         <div className={`stars ${theme}`}></div>
-        <div className="matrix"></div>
+        <div className="shooting-star"></div>
       </div>
       <div className={`app ${theme}`}>
         <NavBar />

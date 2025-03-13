@@ -3,7 +3,7 @@
 }
 
 .app.light {
-  background: linear-gradient(#c2a1d2, #8098b9);
+  background: linear-gradient(#aea0b4, #8098b9);
   color: black;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .navbar.light {
-  background: linear-gradient(#a06d9d, #bc9cca, #a982be);
+  background: linear-gradient(#877b99, #767d88, #93819a);
 }
 
 .navbar.dark {
